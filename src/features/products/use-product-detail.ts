@@ -5,6 +5,7 @@ import { normalizeProducts } from "./product-normalizer";
 import type { Product } from "@/src/types";
 
 export function useProductDetail(productId: string) {
+  
   const [product, setProduct] = useState<Product | null>(null);
   const [related, setRelated] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
