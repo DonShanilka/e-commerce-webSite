@@ -1,11 +1,5 @@
-import React from 'react'
+import ProfilePageClient from "./profile-page-client";
 
-function page() {
-  return (
-    <div>
-      
-    </div>
-  )
+export default function ProfilePage() {
+  return <ProfilePageClient />;
 }
-
-export default page
