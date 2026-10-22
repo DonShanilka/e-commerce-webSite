@@ -1,11 +1,5 @@
-import React from 'react'
+import { RegisterPage } from "@/src/features/auth";
 
-function page() {
-  return (
-    <div>
-      
-    </div>
-  )
+export default function Page() {
+  return <RegisterPage />;
 }
-
-export default page

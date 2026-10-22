@@ -1,3 +1,10 @@
 export { setUser, signOut } from "./auth-slice";
 export type { AuthState } from "./auth-slice";
-
+export { AuthFrame } from "./components/auth-frame";
+export { RegisterPage } from "./components/register-page";
+export { RegisterForm } from "./components/register-form";
+export { RegisterContactFields } from "./components/register-contact-fields";
+export { RegisterNameFields } from "./components/register-name-fields";
+export { RegisterPasswordFields } from "./components/register-password-fields";
+export { useRegisterForm } from "./use-register-form";
+export type { RegisterFormValues } from "./use-register-form";

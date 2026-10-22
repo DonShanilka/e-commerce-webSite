@@ -13,7 +13,6 @@ import { ProfileDetailsCard } from "@/src/features/profile/components/profile-de
 import { ProfileIdentityCard } from "@/src/features/profile/components/profile-identity-card";
 
 export default function ProfilePageClient() {
-
   const dispatch = useAppDispatch();
   const router = useRouter();
   const [profile, setProfile] = useState<Profile | null>(null);
@@ -79,7 +78,7 @@ export default function ProfilePageClient() {
     .filter(Boolean)
     .join("")
     .toUpperCase();
-    
+
   const role = String(profile?.role || "CUSTOMER").toUpperCase();
 
   async function handleSignOut() {
